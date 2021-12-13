@@ -1,58 +1,14 @@
-# Cadastro de carro
+# Bootcamp Ignite API 
 
-**RF**
-Deve ser possível cadastrar um novo carro
-Deve ser possivel listar todas as categorias
+## Objetivo
 
-**RN**
-Não deve ser possível cadastrar um carro com uma placa ja existente
-Não deve ser possível alterar a placa de um carro já cadastrado
-O carro deve ser cadastrado, por padrão, com disponibilidade
-O usuário responsável pelo cadastro deve ser um usuário administrador
+Contruir um api utilizando NodeJS, prínicpios do SOLID E Clean Architecture. Além das práticas para o desenvolvimento de um backend.
+Para o desenvolvimento foi ultiizado o typescript, express, postgreSQL, typeorm e docker.
 
-# Listagem de carros
+## Aplicação
 
-**RF**
-Deve ser possível listar todos os carros disponíveis
-Deve ser possível listar todos os carros disponíveis pelo nome da categoria, marca e nome
+Aplicação consiste no desenvolvimento de um backend para o aluguel de carros, onde é possível cadstrar usuários, carros, categorias e especificações.
 
-**RN**
-O usuário não precisa estar logado no sistema
+## Bootcamp
 
-# Cadastro de especificação no carro
-
-**RF**
-Deve ser possível cadastrar uma especificação para um carro
-Deve ser possível listar todas as especificações
-Deve ser possível listar todos os carros
-
-**RN**
-Não deve ser possível cadastrar uma especificação para um carro não cadastrado
-Não deve ser possível cadastrar uma especificação já existente para o mesmo carro
-O usuário responsável pelo cadastro deve ser um usuário administrador
-
-# Cadastro de imagem do carro
-
-**RF**
-Deve ser possível cadastrar a imagem do carro
-Deve ser possivel listar todas os carros
-
-**RNF**
-Utilizar o multer para upload dos arquivos
-
-**RN**
-O usuário deve poder cadastrar mais de uma imagem para um carro
-O usuário responsável pelo cadastro deve ser um usuário administrador
-
-# Cadastro de imagem do carro
-
-**RF**
-Deve ser possivel cadastrar um aluguel.
-
-**RNF**
-Utilizar o multer para upload dos arquivos
-
-**RN**
-O aluguel deve ter no mínimo 24 horas de duração
-Não deve ser possível cadastar um novo aluguel caso já existe um aberto para o mesmo usuário
-Não deve ser possível cadastar um novo aluguel caso já existe um aberto para o mesmo carro
+O Bootcamp foi feito atráves do programa Ignite promovido pela Rockeseat.
