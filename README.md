@@ -1,7 +1,7 @@
 # Bootcamp Backend
 ## Objetivo
 
-Contruir uma api utilizando NodeJS, prínicpios do SOLID E Clean Architecture. Além das práticas para o desenvolvimento de um backend.
+Contruir uma api utilizando NodeJS, prínicpios do SOLID e Clean Architecture, além das práticas para o desenvolvimento de um backend.
 Para o desenvolvimento foi ultiizado o typescript, express, postgreSQL, typeorm e docker.
 
 ## Aplicação
